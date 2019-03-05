@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/4_tabele.css"> <!--pamiętaj gdzie href a gdzie sour-->
+        <title>Struktura</title>
+    </head>
+    <body>
+        <table>
+        <tr>
+    <td>Imię</td>
+    <td>Nazwisko</td>
+    <td>Miasto</td>
+    </tr>
+        <tr>
+            <td>Jan</td>
+            <td>Nowak</td>
+            <td>Poznań</td>
+    </tr>
+            <tr>
+            <td>Anna</td>
+            <td>Nowak</td>
+            <td>Szczecin</td>
+    </tr>
+        </table>
+        <hr>
+        <!--tabela zdjecia-->
+
+        <table>
+        <tr>
+            <td><img src="img/poznan.png"></td>
+            <td><img src="img/wsb.jpg"></td>
+        </tr>
+            <tr>
+              <td><img src="img/wsb.jpg"></td>
+            <td><img src="img/poznan.png"></td>
+            </tr>
+        </table>
+        <hr>
+
+        <!--nagłówki-->
+
+        <table id="tabela4">
+            <tr>
+                <th></th>
+                <th>Nagłowek pierwszej kolumny</th>
+                <th>Nagłówek drugiej kolumny</th>
+            </tr>
+            <tr>
+                <th>Nagłówek pierwszego wiersza</th>
+                <td>Dane 1</td>
+                <td>Dane 2</td>
+            </tr>
+            <tr>
+                <th>Nagłówek drugiego wiersza</th>
+                <td>Dane 1</td>
+                <td>Dane 2</td>
+            </tr>
+        </table>
+
+        <!--Tabela 5-->
+        <!--Zadanie na egzaminie-->
+
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">Nagłówek pierwszej kolumny</th>   <!--określa zasięg, jaki zakres obejmuje ten nagłówek-->
+                <th scope="col">Nagłówek drugiej kolumny</th>   <!--określa zasięg, jaki zakres obejmuje ten nagłówek-->
+            </tr>
+            <tr>
+            <th scope="row">Nagłówek pierwszego wiersza</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        <tr>
+            <th scope="row">Nagłówek pierwszego wiersza</th>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+<hr>
+        <!--łączenie kolumn-->
+
+        <table>
+        <tr>
+            <th></th>
+            <th scope="col">Poniedziałek</th>
+            <th scope="col">Wtorek</th>
+            <th scope="col">Środa</th>
+        </tr>
+        <tr>
+            <th scope="row">15:00</th>
+            <td>Zapasy</td>
+            <td>Street workout</td>
+            <td>Judo</td>
+            </tr>
+            <tr>
+            <th scope="row">16:00</th>
+                <td colspan="3">Boks</td>
+            </tr>
+            <tr>
+            <th scope="row">17:00</th>
+                <td>UFC</td>
+                <td colspan="2">Zapasy</td>
+            </tr>
+        </table>
+
+        <hr>
+        <!--łączenie wierszy-->
+
+        <table>
+        <tr>
+            <td>1 komórka</td>
+            <td>2 komórka</td>
+            <td>3 komórka</td>
+            </tr>
+        <tr>
+            <td rowspan="2">4 komórka</td>
+            <td>5 komórka</td>
+            <td>6 komórka</td>
+            </tr>
+        <tr>
+            <td>8 komórka</td>
+            <td>9 komórka</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <table>
+        <thead>
+            <tr>
+            <th>Zmianna a</th>
+            <th>Zmienna b</th>
+            <th>Suma</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>10</td>
+                </tr>
+                <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>140</td>
+                </tr>
+                <tr>
+                <td>23</td>
+                <td>34</td>
+                <td>110</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>123</td>
+                <td>312</td>
+                <td>444</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
