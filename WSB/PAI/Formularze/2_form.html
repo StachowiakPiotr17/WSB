@@ -5,6 +5,50 @@
         <title>Struktura</title>
     </head>
     <body>
+        <form>
+        <input type="text" name="imie" autofocus>
+            <br>
+            <input type="password" name="haslo"><br>
+            <input type="number" name="liczba1" step="0.1"><br>
+            <input type="number" name="liczba2" step="2"><br>
+            Daty:
+                <input type="date"><br>
+                <input type="time"><br>
+                <input type="week"><br>
+                <input type="month"><br>
+                <input type="datatime-local"><br>
+            Telefon:
+                <input type="tel"><br>
+            Kolor:
+                <input type="color"><br>
+            Zakres:
+                <input type="range" min="0" max="255" name="zakres"><br>
+            Lista:
+                <label>Dzień tygodnia</label>
+            <input type="text" list="tydzien">
+            <datalist id="tydzien">
+                <option value="Poniedziałek">
+                <option value="Wtorek">
+                <option value="Środa">
+                <option value="Czwartek">
+                <option value="Piątek">
+                <option value="Sobota">
+                <option value="Niedziela">
+            </datalist><br>
+            Wyrażenia regularne:<br>
+            Pesel:
+            <input type="text" name="pesel" pattern="[0-9]{11}" ><br>
+            Kod poczyowy:
+            <input type="text" name="kod" pattern="^\d{2}-\d{3}$" ><br>
 
+            Hasło:
+            <!-- minimum 8 znaków, 1 duża litera,1 mała litera, cyfra -->
+            <input type="text" name="hasło" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}" required><br>
+            <input type="submit" name="Wyślij" value="wyslij">
+
+        </form>
+        <!--zad dom
+    utwórz wyrażenia regularne do pól tel kom, adres ip
+-->
     </body>
 </html>
