@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Struktura</title>
+    </head>
+    <body>
+        <!--method get/post-->
+
+        <form>
+            <label for="login">Login
+                <input type="text" name="login" placeholder="login">
+            </label><br>
+            <label for="haslo">Hasło
+                <input type="text" name="haslo" id="haslo" placeholder="haslo">
+            </label><br>
+                <input type="submit" name="przycisk" id="przycisk" value="wyslij">
+                </form>
+
+        <fieldset>
+            <legend>Wybory</legend>
+            <form action="1_1_glosowanie.html" method="get">
+                <input type="text" name="nick"><br>
+                <input type="radio" name="kandydat" value="Kowal">Kowal
+                <input type="radio" name="kandydat" value="P">Pawlak
+                <input type="radio" name="kandydat" value="K">Kowalski
+                <input type="radio" name="kandydat" value="N">Nowak   <!--żeby zaznazczyć tylko jedno wystarczy mieć te same name-->
+                <br>
+                <input type="submit" name="przycis" value="zagłosuj">
+                <br>
+            </form>
+        </fieldset>
+        <hr>
+        <form action="./1_1_glosowanie.html" method="post">
+        <input
+               type="text"
+               name="imie"
+               id="imie"
+               placeholder="Imię"
+               title="podaj swoje imie, mozesz wprowadzic tylko litery"
+               pattern="[A-z]{2,15}"
+               required autofocus
+               ><br>
+            <input type="text" name="nazwisko" placeholder="Nazwisko"><br>
+            <input type="email" name="mail" placeholder="przykladowy@wp.pl"><br>
+            <input type="number" name="wiek" placeholder="wiek"><br>
+            Narodowość:
+            <input type="radio" name="kraj" value="p">Polska
+            <input type="radio" name="kraj" value="u">Ukraina
+            <input type="radio" name="kraj" value="a">Anglia
+            <br>
+            <input type="submit" name="przycisk">
+        </form>
+        <hr>
+        <form method="post">
+        <p>
+            Nazwa użytkownika:
+            <input type="text" size="6" maxlength="6" name="login" required><br>
+            Hasło: <input type="text" name="password" required><br>
+            <input type="submit">
+            </p>
+        </form>
+
+    </body>
+</html>
