@@ -1,0 +1,58 @@
+p {
+  /* color: rgb(255, 0, 0); */
+  color: rgba(255, 0, 0, 0.5);
+}
+/* #wzgorza {
+  color: rgb(114, 121, 100);
+} */
+
+h1, h4{
+  color: rgb(25, 220, 120);
+  font-family: "Comic Sans";
+}
+a:link {
+  color: yellow;
+  text-decoration: none;
+  margin: 15px;
+  font-family: "Comic Sans";
+}
+a:visited{
+  color: green;
+}
+
+a:hover{
+  color: black;
+  cursor: alias;
+  text-decoration: underline;
+}
+
+a:active{
+  color: magenta;
+  background-color: pink;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  color: white;
+}
+/* Selektor elementu dziecka */
+
+ul > a:link {
+  color: black;
+}
+
+/* selektor elementu potomnego */
+
+h1 a:link {
+  color: rgb(110, 200, 10);
+}
+
+/* selektor elementu sąsiadującego bezpośrednio */
+
+h4 + p{
+  color: blue;
+}

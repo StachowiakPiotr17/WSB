@@ -1,0 +1,26 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+  color: yellow;
+}
+
+i {
+  color: green;
+}
+
+b {
+  color: teal;
+}
+
+p b {
+  color: cyan !important;
+}
+ p b {
+   color: yellow;
+ }
+ p#opis{
+   font-size: 150%;
+ }

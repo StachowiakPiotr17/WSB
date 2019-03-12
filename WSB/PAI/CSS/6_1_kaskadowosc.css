@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(255, 200, 100);
+  font-family: fantasy;
+  color: rgba(255, 0, 0, 0.5);
+  padding: 20px;
+}
+
+h1{
+  color: darkcyan;
+  background-color: teal;
+  margin: 30px;
+  padding: 30px;
+}
+ h2{
+   background-color: rgba(0, 0, 255, 0.5);
+   color: black;
+   margin-left: 50px;
+   margin-top: 25px;
+   margin-right: 100px;
+   margin-bottom: 0px;
+ }
+ p{
+   background-color: rgba(255, 0, 250, 0.5);
+   color: black;
+ }
+ .strona {
+   border: 2px solid black;
+   background-color: #00ff00;
+   padding: inherit;
+ }
+.trzyPokoje{
+  background-color: hsl(120, 100%, 50%);
+}
+
+/*
+odcień 0-360 stopni
+nasycenie w %
+jasność w %, 0% - biały, 50% - kolor normalny, 100% - kolor czarny */
