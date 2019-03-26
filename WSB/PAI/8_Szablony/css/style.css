@@ -54,6 +54,8 @@ body{
   padding: 60px 0;
   background-image: url('./../images/background.png');
   background-size: cover;
+  height: auto;
+  overflow: hidden;
 }
 
 .about h2{
@@ -70,4 +72,106 @@ body{
 
 .col h3{
   text-transform: uppercase;
+}
+
+.portfolio {
+  background-color: #303C39;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.portfolio h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.zajecia ul {
+  text-align: center;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.zajecia ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.zajecia ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  padding: 3px 0;
+}
+
+.zajecia ul li a:hover{
+  border: 2px solid rgb(46,71,222);
+}
+
+.col img{
+  width: 100%;
+}
+
+.col h3 a {
+  text-decoration:none;
+  color: #FFF;
+  font-weight: normal;
+  /* text-align: center;
+  display: inline-block; */
+}
+
+.col h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.col a{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(46, 71, 222);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button a{
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 5px;
+  background-color: rgb(46,71,222);
+  padding: 8px 16px;
+}
+
+.gallery {
+  background-image: url('./../images/background.png');
+  background-size: cover;
+  padding: 50px;
+}
+
+.gallery h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: #2c323c;
+}
+
+.gallery p{
+  text-align: center;
+  color: #2c323c;
+  margin-bottom: 30px;
+}
+
+.zdjecia .col{
+  margin-bottom: 13px;
+}
+
+.gallery .button a{
+  display: block;
+  margin-top: 9px;
 }
