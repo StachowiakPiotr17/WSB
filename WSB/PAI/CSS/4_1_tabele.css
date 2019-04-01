@@ -1,6 +1,9 @@
-body{
-    background-color: #26ced4;
-}
+div {
+        background-image:radial-gradient(circle, teal 10%, Purple 160%);
+        padding:1em;
+        font-size:1.3em;
+        background-color:#CBFFFF;
+      }
 #tabela5, td, tr, th{
     border: solid 1px black;
     border-collapse: collapse;
