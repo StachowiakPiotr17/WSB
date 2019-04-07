@@ -1,0 +1,64 @@
+.rectangle{
+  height: 18px;
+  width: 18px;
+  background-color: rgb(9,75,119);
+}
+hr{
+  border: 0.5px solid #b9b9b9;
+  margin-left: 0em;
+  margin-right: 30em;
+}
+p{
+  font-family: 'Dosis', arial;
+}
+.lewe{
+  width: 31.33%;
+  height: auto;
+  float: left;
+  overflow:hidden;
+  padding: 40px 30px;
+}
+.zdjecia img:hover {
+  transform: scale(1.02);
+}
+.zdjecie1 img:hover {
+  transform: scale(1.02);
+}
+.srodek{
+  width: 30%;
+  height: 90%;
+  float: left;
+  overflow:hidden;
+  padding: 20px 30px;
+}
+.prawa{
+  width: auto;
+  height: auto;
+  float: right;
+  overflow:hidden;
+}
+.zdjecia a {
+  text-decoration:none;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'Dosis', arial;
+  line-height: 1.5;
+}
+.tekst1 a{
+  width: auto;
+  text-decoration:none;
+  color: black;
+  font-family: 'Dosis', arial;
+}
+.artykul1 .artykul2 .artykul3 a h3{
+  float:right;
+  text-decoration:none;
+  color: black;
+  font-weight: normal;
+  font-family: 'Dosis', arial;
+}
+.zdjecie1 a{
+  float:left;
+  padding-left: 20px;
+}
